@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Fingerprint location message - default -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="default">Locate the fingerprint sensor on the front of your phone.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="default">Locate the fingerprint sensor on the left side of your phone.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="default">Locate the fingerprint sensor on the right side of your phone.</string>
+
+    <!-- Fingerprint location message - generic -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="device">Locate the fingerprint sensor on the front of your device.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="device">Locate the fingerprint sensor on the left side of your device.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="device">Locate the fingerprint sensor on the right side of your device.</string>
+
+    <!-- Fingerprint location message - tablet -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="tablet">Locate the fingerprint sensor on the front of your tablet.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="tablet">Locate the fingerprint sensor on the left side of your tablet.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">Locate the fingerprint sensor on the right side of your tablet.</string>
+
+    <!-- Battery light -->
+    <string name="battery_light_title">Turn on the light when charging</string>
+
+    <!-- Refresh rate -->
+    <string name="refresh_rate_title">Refresh rate</string>
+    <string name="min_refresh_rate_title">Minimum refresh rate</string>
+    <string name="max_refresh_rate_title">Maximum refresh rate</string>
+    <string name="preferred_refresh_rate_title">Preferred refresh rate</string>
+    <string name="preferred_refresh_rate_info">Preferred refresh rate will be used as the default refresh rate for user interactions, as long as it\'s not lower than the minimum refresh rate and not higher than the maximum refresh rate.</string>
+    <string name="battery_saver_refresh_rate_title">Reduce refresh rate</string>
+    <string name="battery_saver_refresh_rate_summary">Use 60 Hz as max refresh rate to save power when Battery Saver is on</string>
+
+    <!-- Mobile network setting screen, summary of Mobile data switch preference when the network
+         is unavailable, the preference selection will be disabled. [CHAR LIMIT=NONE] -->
+    <string name="mobile_data_settings_summary_unavailable">No SIM card available</string>
+
+    <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
+    <string name="connected_tws_device_saved_title">Saved Earbuds</string>
+
+    <!-- High touch sensitivity -->
+    <string name="high_touch_sensitivity_title">High touch sensitivity</string>
+    <string name="high_touch_sensitivity_summary">Increase touchscreen sensitivity so it can be used while wearing gloves</string>
+
+    <!-- Touchscreen hovering -->
+    <string name="touchscreen_hovering_title">Touchscreen hovering</string>
+    <string name="touchscreen_hovering_summary">Allows you to hover the screen like a mouse in web browsers, remote desktops, etc</string>
+
+    <!-- Face Unlock -->
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Remove existing face scan and create a new scan</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Redo face scan</string>
+    <string name="security_dashboard_summary_face_and_fingerprint">Screen lock, fingerprint, face unlock</string>
+    <string name="face_redo_confirm_btn">Redo</string>
+    <string name="face_redo_warning_msg">Do you want to remove the existing face scan and create a new one?</string>
+
+    <!-- FastCharge feature -->
+    <string name="fast_charging_title">Fast charging</string>
+    <string name="fast_charging_summary">Disable to reduce the heat produced by the device while charging or to extend the lifespan of the battery</string>
+
+    <!-- Others settings -->
+    <string name="others_settings_title">Others settings</string>
+    <string name="additional_buttons_title">Additional buttons</string>
+
+    <!-- Advanced keyboard settings -->
+    <string name="keyboard_extras_title">Extras</string>
+    <string name="advanced_keyboard_settings_title">Advanced settings</string>
+
+    <!-- Face Unlock -->
+    <string name="face_unlock_method_title">Allow face unlock on lock screen</string>
+    <string name="face_unlock_method_default">When the screen is turned on</string>
+    <string name="face_unlock_method_swipe">When swiping on lock screen</string>
+
+    <!-- Misc gesture settings -->
+    <string name="back_gesture_haptic_title">Haptic feedback</string>
+    <string name="back_gesture_haptic_summary">Enable haptic tick effect on back gesture</string>
+
+    <!-- App details: open play store link if app is user installed -->
+    <string name="app_play_store">Google Play</string>
+
+    <!-- Navbar length -->
+    <string name="navbar_length">Gesture bar length</string>
+    <string name="long_label">Long</string>
+    <string name="hidden_label">Hidden</string>
+
+    <!-- Navbar radius -->
+    <string name="navbar_radius">Gesture bar Radius</string>
+    <string name="small_label">1 dp</string>
+    <string name="big_label">4 dp</string>
+
+   <!-- FontEngine -->
+    <string name="font_picker_title">Font</string>
+    <string name="disable_fonts_installed_title">Font picker is unavailable to avoid conflicts with Substratum. Uninstall it if you wish to use the font picker.</string>
+    <string name="font_picker_progress">Applying new font\u2026</string>
+
+   <!-- Custom actions -->
+    <string name="action_nothing">No action</string>
+    <string name="action_menu">Menu</string>
+    <string name="action_voice_search">Voice search</string>
+    <string name="action_launch_camera">Camera</string>
+    <string name="action_last_app">Last app</string>
+    <string name="action_app_action">Application</string>
+    <string name="kill_app">Kill foreground app</string>
+    <string name="recent_app_toggle">Switch recent app</string>
+
+    <!-- Long swipe gestures -->
+    <string name="navbar_gesture_tweaks_pref_title">Advanced gestures options</string>
+    <string name="navbar_gesture_tweaks_pref_summary">Customize gestures and set custom actions</string>
+    <string name="navbar_gesture_tweaks_cat_title">Advanced</string>
+    <string name="swipe_app_select_summary">Select an app to launch with the squeeze action</string>
+    <string name="long_back_swipe_timeout_title">Long swipe action timeout</string>
+    <string name="left_swipe_actions_title">Long left swipe action</string>
+    <string name="left_swipe_app_action_title">Select long left swipe app</string>
+    <string name="right_swipe_actions_title">Long right swipe action</string>
+    <string name="right_swipe_app_action_title">Select long right swipe app</string>
+    <string name="left_vertical_swipe_actions_title">Vertical left L-swipe action</string>
+    <string name="left_vertical_swipe_app_action_title">Select vertical left swipe app</string>
+    <string name="right_vertical_swipe_actions_title">Vertical right L-swipe action</string>
+    <string name="right_vertical_swipe_app_action_title">Select vertical right swipe app</string>
+    <string name="gesture_nav_tweaks_footer_info">To choose a specific app activity for the action, long press on any app in the apps picker.\n\nIf launcher is showing, do the swipe at the very bottom area of the screen to trigger the action.</string>
+    <string name="back_swipe_extended_title">Extended swipe action</string>
+    <string name="back_swipe_extended_summary">Trigger action on wider swipe (more than half of display size), or a L swipe (vertically longer enough)</string>
+
+    <!-- Fp wake unlock options -->
+    <string name="fp_wake_unlock_title">Fingerprint behaviour</string>
+    <string name="fp_wake_unlock_touch">Touch</string>
+    <string name="fp_wake_unlock_press">Press</string>
+
+     <!-- Radio Info -->
+    <string name="radio_info_title">Radio info</string>
+</resources>

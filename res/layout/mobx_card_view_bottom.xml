@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/ripple_bottom" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="72.0dip" android:layout_marginHorizontal="8.0dip" android:layout_marginTop="3.0dip" android:paddingHorizontal="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@android:id/icon" android:layout_width="40.0dip" android:layout_height="40.0dip" android:scaleType="centerInside" android:layout_centerVertical="true" android:layout_marginEnd="12.0dip" />
+    <LinearLayout android:orientation="vertical" android:id="@+id/container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_toEndOf="@android:id/icon" android:paddingVertical="12.0dip">
+        <TextView android:id="@android:id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:ellipsize="marquee" android:textSize="16.0sp" android:textAppearance="?android:textAppearanceListItem" android:textAlignment="viewStart" android:textFontWeight="500" />
+        <TextView android:id="@android:id/summary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="14.0sp" android:textColor="?android:textColorSecondary" android:textAlignment="viewStart" android:fontFamily="sans-serif" android:ellipsize="end" android:textFontWeight="400" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:color="@android:color/accent_device_default_light">
+
+	<item
+		android:id="@android:id/mask">
+
+		<shape
+			android:shape="rectangle">
+
+			<solid
+				android:color="@color/mobx_card_view"/>
+<corners
+				android:topLeftRadius="@dimen/mobx_card_rounded1" android:topRightRadius="@dimen/mobx_card_rounded1" android:bottomLeftRadius="@dimen/mobx_card_rounded1" android:bottomRightRadius="@dimen/mobx_card_rounded1"/>
+		</shape>
+
+	</item>
+
+	<item>
+
+		<shape
+			android:shape="rectangle">
+
+			<solid
+				android:color="@color/mobx_card_view"/>
+<corners
+				android:topLeftRadius="@dimen/mobx_card_rounded1" android:topRightRadius="@dimen/mobx_card_rounded1" android:bottomLeftRadius="@dimen/mobx_card_rounded1" android:bottomRightRadius="@dimen/mobx_card_rounded1"/>
+		</shape>
+
+	</item>
+
+</ripple>
+

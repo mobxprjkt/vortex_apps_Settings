@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.factor.bouncy.BouncyRecyclerView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@id/recycler_view"
+	android:paddingTop="8.0dip"
+	android:scrollbars="none"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:overScrollMode="never"
+	app:allow_drag_reorder="true"
+	app:allow_item_swipe="false"
+	app:recyclerview_damping_ratio="DAMPING_RATIO_HIGH_BOUNCY"
+	app:recyclerview_fling_animation_size="0.8"
+	app:recyclerview_overscroll_animation_size="0.8"
+	app:recyclerview_stiffness="STIFFNESS_LOW"
+	xmlns:app="http://schemas.android.com/apk/res-auto"/>
+

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Fingerprint -->
+    <dimen name="fingerprint_find_sensor_padding_top">16dp</dimen>
+    <dimen name="custom_settings_bar_height">85dp</dimen>
+
+    <!-- mobx projekt -->
+    <dimen name="mobx_card_rounded1">4.0dip</dimen>
+    <dimen name="mobx_card_rounded2">24.0dip</dimen>
+    <dimen name="mobx_card_space">3.0dip</dimen>
+
+</resources>
